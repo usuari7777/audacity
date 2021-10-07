@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> Conocimientos previos </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="header" >
+Materials curriculars INF</div>
+<div id="navcontainer">
+<ul id="navlist">
+<div><a href="index.html" class="withChild">2. El sonido digital</a></div>
+<div><a href="introduccin.html" class="withChild">Introducción</a></div>
+<div id="active" class="withoutChild">Conocimientos previos</div>
+<div><a href="21_la_tarjeta_de_sonido.html" class="withoutChild">2.1. La tarjeta de sonido</a></div>
+<div><a href="22_los_formatos_del_sonido_digital.html" class="withChild">2.2. Los Formatos del Sonido Digital</a></div>
+<div><a href="23_grabador_de_sonido.html" class="withChild">2.3. Grabador de sonido</a></div>
+<div><a href="24_edicin_de_sonido_con_audacity.html" class="withChild">2.4. Edición de sonido con Audacity</a></div>
+<div><a href="cuestionario_final.html" class="withoutChild">Cuestionario final</a></div>
+<div><a href="fuentes_de_informacin.html" class="withoutChild">Fuentes de información</a></div>
+<div><a href="resumen_final.html" class="withoutChild">Resumen final</a></div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">Conocimientos previos</p></div>
+<div class="preknowledgeIdevice" id="id8">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_preknowledge.gif"/>
+<span class="iDeviceTitle">Pre-conocimiento</span>
+<div class="iDevice_inner">
+<div id="ta8_28_23" class="block" style="display:block">
+<p>
+Para abordar este tema sólo no se necesitan conocimientos previos, se empieza desde cero.
+</p>
+<p>
+Las prácticas se han desarrollado en el entorno Lliurex 7.11 y los programas utilizados son:
+</p>
+<ul>
+	<li><b>Sound Juicer </b><b>2.16.3 </b>(se puede utilizar CDex en el S.O. Windows) para la extracció del audio.</li>
+	<li><b>Audacity 1.2.6</b> (también disponible en el S.O. Windows) para el tratamiento del sonido digital.</li>
+</ul>
+<p>
+Para poder exportar el formato <b>mp3</b>, al ser un formato propietario, es necesario instalar el paquete <b>gstreamer0.10-plugins-ugly-multiverse.</b> Pasos:
+</p>
+<p>
+1. Activar los repositorios de Ubuntu:
+</p>
+<ol>
+</ol>
+<blockquote>
+	<p>
+	Gestor de paquetes Synaptic / Parámetros / Repositorios
+	</p>
+</blockquote>
+<blockquote>
+</blockquote>
+<p>
+<img src="so_previ1.png" height="382" width="600" /> 
+</p>
+<blockquote>
+</blockquote>
+<p>
+2. Actualizar
+</p>
+<p>
+3. Buscar e instalar  <b>gstreamer0.10-plugins-ugly-multiverse</b> i las dependencias que haya.
+</p>
+<p>
+Para configurar el <b>Audacity</b> para poder exportar a <b>MP3</b>:
+</p>
+<p>
+- Instal·leu el paquet liblame0. Podeu consultar esta altra Faq per a saber com fer-ho.<br />
+- Abrir el programa Audacity y en el menú <b>Editar</b> / <b>Preferencias</b>, la sección <b>Formato de archivo</b><br />
+- En <b>Opciones de exportación</b> a MP3 hacer clic sobre el botón <b>Buscar librería.<br />
+</b>  - El programa preguntará por la ubicación del archivo <b>libmp3lame.so</b>. Por defecto busca en la carpeta <b>/usr/lib</b>. El archivo se encuentra en esa libreria pero se llama <b>libmp3lame.so.0</b>; añadir <b>.0</b> al nobre del archivo que aparece. Hacer clic sobre el botón Aceptar y después confirmar y <b>Aceptar</b>. 
+</p>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" width="590" height="462">
+	<param name="width" value="590" />
+	<param name="height" value="462" />
+	<param name="play" value="true" />
+	<param name="quality" value="high" />
+	<param name="scale" value="exactfit" />
+	<param name="src" value="so_previ1.swf" />
+	<embed type="application/x-shockwave-flash" width="590" height="462" play="true" quality="high" scale="exactfit" src="so_previ1.swf"></embed>
+</object>
+<p>
+&nbsp;
+</p>
+<blockquote>
+</blockquote>
+<p style="margin-bottom: 0cm">
+La versión de Audacity para Windows se puede obtener de: <a href="http://audacity.sourceforge.net/" title="Audacity">http://audacity.sourceforge.net</a> y el programa lame para poder exportar a mp3 en <a href="http://sourceforge.net/project/showfiles.php?group_id=290&amp;package_id=309">http://lame.sourceforge.net/index.php</a>
+</p>
+<p>
+Primero se instalarán los dos programas y después, como en Lliurex, a través del menú <b>Editar / Preferéncias </b>del Audacity, sección <b>Formato de archivo</b>, en <b>Opciones de exportación</b> a MP3 hacer clic sobre el botón <b>Buscar librería. </b>Ahora busca la libreria de nombre <b>lame_enc.dll</b> que se encuentra en el directorio de instalación del programa <b>lame-3.XX.</b> (alternativamente se puede copiar este archivo al directorio de instalación del Audacity y buscar allí la libreria). 
+</p>
+<div style="text-align: center">
+<img src="so_previ2.png" height="428" width="503" />
+</div>
+<div style="text-align: center">
+</div>
+<div style="text-align: center">
+</div>
+<div style="text-align: center">
+</div>
+<div style="text-align: center">
+ 
+</div>
+<div style="text-align: center">
+<img src="so_previ3.png" height="372" width="503" />
+</div>
+<div style="text-align: center">
+ 
+</div>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="noprt" align="right"><a href="mapa_conceptual.html">&laquo; Anterior</a> | <a href="21_la_tarjeta_de_sonido.html"> Siguiente &raquo;</a></div>
+<p align="center">Este artículo está licenciado bajo <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.5/">Creative Commons Attribution-NonCommercial 2.5 License</a></p><p align="center">Formació del Professorat - CEFIRE</p></div>
+</div>
+</body></html>
